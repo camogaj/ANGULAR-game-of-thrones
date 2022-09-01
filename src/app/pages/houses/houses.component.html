@@ -1,0 +1,39 @@
+<main>
+    <nav>
+      <div class="search">
+        <span class="icon"></span>
+        <input
+          type="text"
+          (keyup)="applyFilter($event)"
+          placeholder="Buscar..."
+          autofocus
+        />
+      </div>
+  
+      <div class="menu">
+        <a routerLink="/">
+          <i class="material-icons">home</i>
+        </a>
+        <a href="#" (click)="changeLanguage('ES')"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Bandera_de_Espa%C3%B1a_%28nuevo_dise%C3%B1o%29.svg"
+            Alt="ES"
+        /></a>
+        <a href="#" (click)="changeLanguage('EN')">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg"
+            Alt="ES"
+          />
+        </a>
+      </div>
+    </nav>
+    <section>
+      <app-house-card
+        *ngFor="let house of filteredHouses"
+        [image]="house.logoURL"
+        [name]="house.name"
+      ></app-house-card>
+    </section>
+  </main>
+  <app-footer></app-footer>
+  

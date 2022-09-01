@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: GameOfThrones;
+  src: url("./assets/fonts/GameofThrones.ttf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-image: url(./assets/images/GT4.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}

@@ -1,0 +1,23 @@
+/* body {
+  background-image: url(../../../assets/images/GT4.jpg); */
+  /* background-image: url(../../../assets/images/FG1.jpg); */
+  /* margin: 0px;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+} */
+
+.title {
+  font-family: GameOfThrones;
+  font-size: 100%;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  text-shadow: 10px 10px 10px rgb(162, 248, 110);
+}

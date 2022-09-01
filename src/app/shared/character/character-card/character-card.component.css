@@ -1,0 +1,39 @@
+.card {
+  transition: 0.5s;
+  flex: 16%;
+  position: relative;
+  text-shadow: 10px 10px 10px rgb(162, 248, 110);
+  margin: 34px 12px;
+  height: 300px;
+  width: 195px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px rgb(162, 248, 110);
+  border-radius: 10px;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  width: 78%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(162, 248, 110);
+  width: 100%;
+  border-radius: 50px;
+}
+.card:hover .container {
+  opacity: 1;
+}
+
+.card img {
+  object-fit: cover;
+  width: 197px;
+  height: 300px;
+}

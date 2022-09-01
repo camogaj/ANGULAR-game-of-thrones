@@ -1,0 +1,57 @@
+
+main {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.search {
+  flex: 0.5;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  border-bottom: 2px solid white;
+}
+
+.search > .icon {
+  flex: 24px;
+}
+
+.search > input {
+  background-color: transparent;
+  flex: 100;
+  outline: 0;
+  border: 0;
+  color: rgb(162, 248, 110);
+  font-family: GameOfThrones;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu > a {
+  flex: 1;
+}
+
+.menu img {
+  width: 32px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  font-family: GameOfThrones;
+  color: white;
+  padding: 12px;
+}
